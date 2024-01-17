@@ -11,9 +11,9 @@ Employs SQLite, handling data related to posts, comments, and user accounts effi
 ### Security: 
 Integrates bcrypt for secure password management and express-session for managing user sessions, emphasizing security.
 ### Practical Demonstration: 
-Showcases backend proficiency and security awareness, ideal for a technical portfolio piece.
+This project showcases backend proficiency and security awareness.
 
-This project is an exemplary model for integrating various web technologies into a cohesive and secure web application.
+It's also an exemplary model for integrating various web technologies into a cohesive and secure web application.
 
 ## Installation
 
