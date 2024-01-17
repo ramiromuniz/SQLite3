@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reader Home Page</title>
+    <link href="/css/styles.css" rel="stylesheet">
+
+</head>
+    <body>
+        <div class="navbar">
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/reader">Reader</a>
+                <a href="/author">Author</a>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="page-title center-text">Reader Home Page</h1>
+            <h2 class="blog-info center-text">Blog Title: <%= blogTitle %>, Author: <%= authorName %></h2>
+
+            <div class="articles-container">
+                <ul class="articles-list">
+                    <% publishedArticles.forEach(article => { %>
+                        <li class="article-item">
+                            <a href="/reader/article/<%= article.post_id %>" class="article-link">
+                                <h3 class="article-title"><%= article.title %></h3>
+                            </a>
+                            <p class="article-meta">Published on: <%= article.published_at %></p>
+                        </li>
+                    <% }); %>
+                </ul>
+            </div>
+            <button onclick="window.location='/';" class="back-button">Back to Home Page</button>
+
+        </div>
+    </body>
+</html>

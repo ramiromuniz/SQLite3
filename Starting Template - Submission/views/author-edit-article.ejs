@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Article</title>
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/reader">Reader</a>
+            <a href="/author">Author</a>
+
+        </div>
+        <div class="nav-logout">
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+        <div class="form-container">
+            <h1>Edit Article Page</h1>
+            <p class="info"><strong>Created:</strong> <%= createdAt %></p>
+            <p class="info"><strong>Last Modified:</strong> <%= lastModified %></p>
+            <form id="editArticleForm" action="/author/edit/<%= articleId %>" method="post">
+                <label for="title" class="form-label"><strong>Title:</strong></label>
+                <input type="text" id="title" name="title" value="<%= articleTitle %>" class="input-title">
+                
+                <label for="content" class="form-label"><strong>Content:</strong></label>
+                <textarea id="content" name="content" class="textarea-content"><%= articleContent %></textarea>
+                
+                <button type="submit" class="submit-button">Submit Changes</button>
+            </form>
+            <button onclick="window.location='/author';" class="submit-button">Back to Author Home Page</button>
+        </div>
+    </body>
+</html>

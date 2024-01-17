@@ -1,0 +1,369 @@
+/* Define styles */
+body {
+    background-color: #f5f5dc; /* Creamy off-white background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000; /* Black text for light background */
+  }
+  
+/* Navbar styles */
+.navbar {
+    display: flex; /* Set navbar display to flex */
+    justify-content: space-between; /* Space out navbar items */
+    align-items: center; /* Center items vertically */
+    background-color: #013220; /* Dark green background */
+    padding: 1rem;
+    color: #fff; /* White text color */
+}
+
+.nav-links {
+    display: flex; /* Set nav-links display to flex */
+    align-items: center; /* Center links vertically */
+}
+
+.nav-links a {
+    color: #fff; /* White text for links */
+    margin-right: 10px; /* Space between links */
+    text-decoration: none; /* No underline */
+}
+
+/* This class is for your logout link */
+.nav-logout a {
+    color: #fff; /* White text color for logout link */
+    text-decoration: none; /* No underline */
+    margin-left: auto; /* Push to the right */
+}
+
+.nav-logout a:hover {
+    text-decoration: underline; /* Underline on hover for logout link */
+}
+  
+.button {
+    background-color: #013220; /* Dark deep green background */
+    color: #f5f5dc; /* White text */
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.button:hover {
+    background-color: #024731; /* Slightly lighter green for hover effect */
+  }
+  
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Using 90% of viewport height to vertically center */
+  }
+
+  .form-container {
+    background-color: #fff; /* White background */
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Adjust width as needed */
+    width: 100%;
+  }
+  
+  .form-input {
+    border: 1px solid #ddd; /* Light grey border */
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    width: calc(100% - 30px); /* Full width minus padding */
+  }
+  
+  .form-input:focus {
+    border-color: #013220; /* Dark deep green border for focus */
+    outline: none;
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #013220; /* Dark deep green background */
+    border: none;
+    border-radius: 4px;
+    color: #fff; /* White text */
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #024731; /* Slightly lighter green for hover effect */
+  }
+  
+  /* Center the form container */
+  .center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh; /* Adjust height for vertical centering */
+  }
+
+  .articles-container {
+    background-color: #fff; /* White background for the table */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.article-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.article-row span {
+    margin-right: 10px;
+}
+
+.form-button {
+    background-color: #013220; /* Dark deep green */
+    color: #f5f5dc; /* White text */
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #024731; /* Lighter green for hover */
+}
+
+/* Settings and New Draft buttons styling */
+.settings-button, .new-draft-button {
+    background-color: #013220; /* Dark deep green */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Allows padding and margin */
+    margin: 0 5px; /* Space between buttons */
+}
+
+.settings-button:hover, .new-draft-button:hover {
+    background-color: #024731; /* Lighter green for hover */
+}
+
+
+.articles-header {
+    background-color: #e8f5e9; /* Light green background for headers */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+  
+.article-row span {
+    display: inline-block;
+    min-width: 120px; /* Adjust as needed for alignment */
+}
+  
+.article-actions button {
+    margin-right: 8px; /* Add spacing to the right of buttons */
+    margin-bottom: 4px; /* Add some spacing below the buttons if they wrap */
+}
+
+/* Add to your styles.css file */
+.center-text {
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+  
+  /* Add this to style the h1 and h2 */
+  .page-title, .blog-info {
+    margin-bottom: 0.5em; /* Gives a little space below the titles */
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+
+
+.form-container {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-title, .textarea-content {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.textarea-content {
+    height: 200px;
+    background-color: #edf2f7;
+    width: 95%; 
+    padding: 10px;
+    display: block;
+}
+
+.submit-button {
+    background-color: #013220; /* Dark deep green */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #024731; /* Slightly lighter green for hover effect */
+}
+
+.back-button {
+    margin-top: 10px;
+}
+.input-title, .textarea-content, .info, .submit-button, .back-button {
+    margin-bottom: 16px; /* Adds space below each element */
+}
+
+.form-label {
+    display: block; /* makes the label a block element to take up the full width */
+    margin-top: 10px; /* adds space above the label */
+    margin-bottom: 5px; /* adds space below the label before the textarea */
+  }
+
+  .articles-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.articles-list {
+    list-style: none;
+    padding: 0;
+}
+
+.article-item {
+    border-bottom: 1px solid #eaeaea; /* Light grey line */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.article-link {
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    color: #013220; /* Dark deep green */
+    transition: background-color 0.3s;
+}
+.article-link:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+  }
+
+.article-title {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.article-meta {
+    font-style: italic;
+    color: #555;
+}
+
+.article-content {
+    margin-bottom: 20px;
+    padding: 0 20px; /* Add padding to the left and right */
+}
+
+.like-comment-section {
+    margin-bottom: 20px;
+}
+
+.like-form, .comment-form {
+    margin-bottom: 10px;
+}
+
+.comment-form input[type="text"],
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.comments-container {
+    margin-bottom: 20px;
+}
+
+.comment {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.commenter-name {
+    font-weight: bold;
+}
+
+.comment-text {
+    margin-bottom: 5px;
+}
+
+.comment-date {
+    font-style: italic;
+    color: #555;
+}
+
+.like-button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.like-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.back-button {
+    background-color: #013220; /* Red background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #014a2d; /* Darker red on hover */
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 15px;
+}
