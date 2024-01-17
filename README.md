@@ -2,15 +2,15 @@
 
 This blogging tool demonstrates an efficient implementation of the three-tier architecture in web development:
 
-# Presentation Layer: 
+### Presentation Layer: 
 Utilizes EJS templates for dynamic HTML rendering, creating an interactive user interface.
-# Logic Tier: 
+### Logic Tier: 
 Leverages Express.js for core functionalities including managing user sessions and authentication processes.
-# Data Storage: 
+### Data Storage: 
 Employs SQLite, handling data related to posts, comments, and user accounts efficiently.
-# Security: 
+### Security: 
 Integrates bcrypt for secure password management and express-session for managing user sessions, emphasizing security.
-# Practical Demonstration: 
+### Practical Demonstration: 
 Showcases backend proficiency and security awareness, ideal for a technical portfolio piece.
 
 This project is an exemplary model for integrating various web technologies into a cohesive and secure web application.
