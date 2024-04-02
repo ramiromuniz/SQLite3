@@ -1,3 +1,7 @@
+## Overview
+
+Full-stack blogging platform built with Node.js, using Express and EJS as the web application framework and SQLite as the database. It supports basic blog functionalities including user authentication, article posting (both drafts and published posts), commenting, and liking posts. All stored dynamically in Tables of the Database.
+
 ## Installation
 
 To get started with the Blogging Platform, follow these steps:
